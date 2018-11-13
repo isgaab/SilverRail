@@ -34,3 +34,6 @@ The file for testing must have the following form (.csv):
   - y: accelerometer data in y
   - z: accelerometer data in z
   - mode: type of transport (walk or train)
+
+# Trained Model File
+Name: train_walk_model.sav
