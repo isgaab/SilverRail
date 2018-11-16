@@ -12,8 +12,9 @@ Current app uses:
 - bus_train_walking_model (~82% accuracy)
 
 2) weng_random_forest.p:
-- train_walking_model (~85% accuracy, 0.88-0.66 Precision-Recall for Walk, 0.84-0.95 Precision-Recall Train)
-                  
+- train_walking_model (~85% accuracy, 0.88-0.66 Precision-Recall for Walk, 0.84-0.95 Precision-Recall Train) 
+- Very fast train time : normally less than a minute 
+                 
 #  How to run
 1) To build the api endpoint as a docker image, in the root directory of project, please run `docker build -t <docker_name> .
 2) Once the build is finished, run `docker run -it -p 3030:3030 <docker_name>` to launch the service.
