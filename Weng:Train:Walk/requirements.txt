@@ -1,0 +1,10 @@
+Flask
+flask-cors
+minio
+numpy
+pandas
+pyyaml
+requests
+scipy
+scikit-learn
+uwsgi
